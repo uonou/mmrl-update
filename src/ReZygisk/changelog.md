@@ -15,6 +15,9 @@
 - 6b929078bf7dbd731246da9688b1aa1a8826652d unnecessary `purge_unused_memory`
 - 13ef3c441b86e537bc66e083b3e34e57269f60cb dc2861918c87cce596a29b814a9138e12c23bcb0 logs from left overs of debugging
 - b477393bd6a2dbe1daf46d99973842b38276bc7c unnecessary `\n` in ReZygiskd
+- ecef7e30d92f6a4945ea470d21595f537808998e unused `WebUILicense` string
+- b6e4f27add9cc0e94f13de5ff007311ef34b5590 outdated `es-MX` WebUI translation
+- faccedfc09341bdbe25e251b813b838ad024b4f6 trailing spaces and tabs
 
 ### Fixed
 
@@ -92,6 +95,7 @@
 - 28245090b91cd4bc1a9f99ce5d24ccd14fc8b68f Tango and Android 7.1 compatibility
 - bd92fb6d989499ff5322aed5f4352b392eedb8ee general bugs
 - 91d452379fa67046207315ea9e42cb2354e5120f using `exit 0` in `customize.sh`
+- 19bb64c64bf26839a56ded14e4585f873161e8c8 exempted fds not being added to `fds_to_ignore`
 
 ### Updated
 
@@ -113,6 +117,7 @@
 - 76bbabb7734bdc567200877d638fe58ce263a46b 2fd00e53523f80d8c64e2ee9c813dfc7a27a5903 c13b8916d3ab1d16a4623837df658429ad354c7d 18a6d65352d6cd188ed87d9c0bd8daa1fd59f225 e4190cd8eb3f69d5e31cd2a47d9dd1471726c83e CSOLoader source
 - 18f484bec214b5468a2d00d8e3ec5a60eb04db06 licensing information in `README.md`
 - 7586ec7080bc14aa82ce8b97fcfe36ffb6e9f009 7586ec7080bc14aa82ce8b97fcfe36ffb6e9f009 Contributor Assistant workflow
+- 08d46e5741de768609800de925134bc118f786c1 READMEs
 
 ### Added
 
@@ -236,3 +241,6 @@
 - 36e57ca20154f61c2e1c8c22d36df2163fc32038 unify Tango injection with normal path
 - 4c9e967a2c760026f282dc1ee56e20d4e6f93b5a `module.prop` restoration robustness
 - 7e3db008cf70493490129649593a9be131f7509e action build time
+- 798724d32999bebb210554960e8ae2177679be08 lookup `apd` in `bin` instead of `adb`
+- 2e115bedaf06b8aea95be76474109d4ca39ff52a replace LSPlt for PLTI
+- 6f343de56616f036679f46d8b761ee9843298d10 use Treat Wheel WebUI Freamework
