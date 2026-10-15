@@ -1,17 +1,9 @@
-- 适配 Android 17 QPR2 Beta 3
-- 新增 HyperOS Runtime 支持
-- 修复部分情况下 Zygisk 功能意外失效的问题
-- 修复 32 位 ARM 设备上的潜在异常
-- 调整 WebView 子进程 umount 方式，交由 Root 方案统一管理
+- 修复某些系统上导致应用崩溃的问题
 
 ---
 
-- Supports Android 17 QPR2 Beta 3
-- Adds HyperOS Runtime support
-- Fixed an issue where Zygisk functionality would unexpectedly fail in some cases
-- Fixed potential anomalies on 32-bit ARM devices
-- Adjusted the WebView child process umount mechanism, now managed by Root solution.
+- Fixed an issue that caused the app to crash on certain systems.
 
 ---
 
-SHA256: 474d58abc208c0779e7f8f1d8449db755a874d475c13b9cf8decf74bc171933b
+SHA256: ce50b13fecb9e4456db69ef17b715f7cfbc094004dd9f30f7d6348dfab619a96
