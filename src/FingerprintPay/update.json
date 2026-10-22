@@ -1,6 +1,6 @@
 {
-  "version": "6.1.0-ci",
-  "versionCode": 610,
-  "zipUrl": "https://github.com/eritpchy/FingerprintPay/releases/download/6.1.0-ci/zygisk-module-xfingerprint-pay-all-v6.1.0-release.zip",
+  "version": "7.0.1-ci",
+  "versionCode": 701,
+  "zipUrl": "https://github.com/eritpchy/FingerprintPay/releases/download/7.0.1-ci/zygisk-module-xfingerprint-pay-all-v7.0.1-release.zip",
   "changelog": "https://raw.githubusercontent.com/misak10/mmrl-update/main/src/FingerprintPay/changelog.md"
 }
